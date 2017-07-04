@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QListWidgetItem>
-#include "../Client/Client.h"
+#include "../Client.h"
 #include "virtualsoc.h"
 #include "admin.h"
 
@@ -34,7 +34,7 @@ private:
     Admin*      m_admin;
     Client*     m_client;
     QWidget*    m_parent;
-    int         m_pipe[2];    
+    int         m_pipe[2];
     Ui::login*  m_ui;
     VirtualSoc* m_virtualSoc;
 

@@ -1,6 +1,6 @@
 all : client server
 client:
-	cd client; \
+	cd Client/gui; \
 	mkdir build/; \
 	cd build/; \
 	qmake ../client.pro; \
@@ -11,4 +11,4 @@ server:
 
 .PHONY: all client server
 clean :
-	rm -rf Server/build client/build
+	rm -rf Server/build Client/gui/build

@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QListWidgetItem>
-#include "../Client/Client.h"
+#include "../Client.h"
 #include "post.h"
 
 namespace Ui {

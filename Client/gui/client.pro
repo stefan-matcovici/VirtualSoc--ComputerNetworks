@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = client
+TARGET = ../../../client
 TEMPLATE = app
 INCLUDEPATH += /usr/local/include \
 
@@ -17,21 +17,21 @@ LIBS += -L"/usr/local/lib" -ljansson
 
 SOURCES +=  main.cpp \
             login.cpp \
-            ../Client/Client.cpp \
+            ../Client.cpp \
             client.cpp \
             virtualsoc.cpp \
             post.cpp \
             admin.cpp \
-            ../Server/ServerLibs/Communication/Communication.cpp
+            ../../Server/ServerLibs/Communication/Communication.cpp
 
 HEADERS  += \
             login.h \
-            ../Client/Client.h \
+            ../Client.h \
             client.h \
             virtualsoc.h \
             post.h \
             admin.h \
-            ../Server/ServerLibs/Communication/Communication.h
+            ../../Server/ServerLibs/Communication/Communication.h
 
 FORMS    += client.ui \
             login.ui \

@@ -1,7 +1,7 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 
-#include <../Server/ServerLibs/Communication/Communication.h>
+#include "../Server/ServerLibs/Communication/Communication.h"
 
 class Client
 {

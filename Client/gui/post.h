@@ -2,7 +2,7 @@
 #define POST_H
 
 #include <QWidget>
-#include "../Client/Client.h"
+#include "../Client.h"
 
 namespace Ui {
 class Post;
