@@ -7,7 +7,6 @@ make
 ./client  
 
 ## Dependencies
-**QT 5.7**: sudo apt-get build-dep qt5-default  
-  * sudo apt-get install libxcb-xinerama0-dev  
-**sqlite3**: sudo apt-get install sqlite3 libsqlite3-dev  
-**jansson**: sudo apt-get install libjansson-dev  
+* **QT 5.7**: sudo apt-get build-dep qt5-default </br>sudo apt-get install libxcb-xinerama0-dev  
+* **sqlite3**: sudo apt-get install sqlite3 libsqlite3-dev  
+* **jansson**: sudo apt-get install libjansson-dev  
